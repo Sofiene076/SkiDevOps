@@ -7,10 +7,10 @@
           stage('GIT') {
               steps {
                   git branch:'main',
-                  url:"https://github.com/Sofiene076/SkiDevOps.git",
+                  url:'https://github.com/Sofiene076/SkiDevOps.git',
               }
           }
-          stage("DISPLAY SYSTEM DATE"){
+          stage('DISPLAY SYSTEM DATE'){
               steps{
                   sh 'date'
               }
