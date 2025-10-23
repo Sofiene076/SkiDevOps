@@ -12,7 +12,7 @@ pipeline {
         }
         stage('DISPLAY SYSTEM DATE') {
             steps {
-                sh 'date'
+                sh 'mvn clean compile'
             }
         }
     }
